@@ -4,9 +4,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="action-sheets-basic-page">
   <h2>Welcome to Test Page ! </h2>
   <p>
     This is a test page !
   </p>
+  <button ion-button block (click)="presentActionSheet()">
+    Show Action Sheet
+  </button>
 </ion-content>
